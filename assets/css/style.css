@@ -7,6 +7,9 @@
 	--blue-transition: #173838;
 	--gold: rgb(102, 119, 33);
 }
+body{
+	background: linear-gradient(to right, var(--gold), var(--pink));
+}
 
 .header {
 	width: 100%;
@@ -42,7 +45,7 @@
 
 	text-shadow: 3px 2px #094169;
 	text-decoration: none;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	border-bottom: 1px solid var(--pink);
 }
 
@@ -70,6 +73,7 @@
 	background: var(--blue);
 	width: 100%;
 	height: 82vh;
+	margin-bottom: 2rem;
 }
 
 .main-banner {
@@ -95,5 +99,3 @@
 	transition: opacity 1000ms ease;
 	opacity: 1;
 }
-
-.content-main {}
