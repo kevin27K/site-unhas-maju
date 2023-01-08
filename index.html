@@ -5,6 +5,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https: //fonts.googleapis.com/css2?family= Playfair+Display & display = swap" rel="stylesheet">
 	<link rel="stylesheet" href="./assets/css/reset.css">
 	<link rel="stylesheet" href="./assets/css/style.css">
 	<title>Unhas Maju</title>
@@ -41,11 +44,25 @@
 			<div class="manicure-domicilio">
 				<div class="imagem-domicilio">
 					<h2 class="manicure-domicilio__titulo">Manicure a domicílio</h2>
-					<img src="./assets/img/manicure-a-domicilio3.jp" alt="" class="img-domicilio">
+					<img src="./assets/img/manicure-a-domicílio.jpg" alt="" class="img-domicilio">
 				</div>
 				<div class="manicure-domicilio__form">
-					<form action="" method="post" autocomplete="off">
-
+					<form action="" method="post" autocomplete="off" class="form">
+						<div class="form__label-input">
+							<label for="inome">Nome</label>
+							<input type="text" name="nome" id="inome">
+						</div>
+						<div class="form__label-input">
+							<label for="iemail">E-mail</label>
+							<input type="email" name="email" id="iemail">
+						</div>
+						<div class="form__label-input">
+							<label for="iwhatssap">Whatssap</label>
+							<input type="tel" name="Whatssap" id="iwhatssap">
+						</div>
+						<div class="form__button">
+							<button type="submit">Fale Conosco</button>
+						</div>
 					</form>
 				</div>
 			</div>
